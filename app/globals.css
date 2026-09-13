@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Courier New', monospace;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a3b40;
+  border-radius: 4px;
+}
